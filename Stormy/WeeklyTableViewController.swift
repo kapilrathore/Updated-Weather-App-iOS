@@ -18,7 +18,7 @@ class WeeklyTableViewController: UITableViewController {
     // Location coordinates
     let coordinate: (lat: Double, lon: Double) = (26.9000,75.8000)
     // TODO: Enter your API key here
-    private let forecastAPIKey = "41db8bde58b6d9c75df0febc3fd218a0"
+    private let forecastAPIKey = ""
     
     var weeklyWeather: [DailyWeather] = []
     
